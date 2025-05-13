@@ -1,4 +1,4 @@
-#ejemplos de programación orientada a objetos 
+**ejemplos de programación orientada a objetos**
 ## 1. crear eel archivo **.gitignore**
 
 se crea el archivo **.gitignore** para configurar los archivos que no se sincronizaán con el repositorio 
@@ -47,3 +47,43 @@ se instalan las librerias que van a a ocupar en el proyecto
 ````shell
 pip install web.py
 ````
+
+## 7. crear el archivo **requirements.txt**
+
+se crea el archivo **requirements.txt** con las liberias y el numero de version  utilizada
+
+````shell
+pip freeze > requirements.txt
+````
+
+## 8. crear el archivo **runtime.txt**
+
+se crea el archivo **runtime.txt** con la version de python3 que se esta utilizando para el proyecto
+
+````shell
+python3 -V > runtime.txt
+````
+
+## 9. indexar los archivos 
+
+
+
+
+
+
+## 10. generar **commit**
+ se realiza un **commit** con un texto que describa los cambios realizados en el proyecto
+
+ ````shell
+ git commit -m "CREATED configuracion basica "
+ ````
+
+ ## 11. realizar un **push**
+
+ se realiza un **push** para subir los cambios realizados al repositorio de **GitHub**
+
+ ````shell
+ git push -u origin main
+ ````
+
+ ## 12.
